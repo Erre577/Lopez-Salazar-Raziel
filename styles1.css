@@ -1,0 +1,88 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.fondo{
+	display: flex;
+	align-items:center;
+	flex-direction: column;
+}
+
+.fondo2{
+	display: flex;
+	justify-content:center;
+}
+
+.bloquemorado{
+	border: 1px solid #000000;
+	width: 900px;
+	height: 150px;
+	display: flex;
+	background-color:#c3a1e6;
+	justify-content: space-between;
+	align-items: center;
+}
+.bloquerosa1,
+.bloquerosa2{
+	border: 1px solid #000000;
+	width: 205px;
+	height: 50px;
+	background-color:#e6a1d5;
+	
+
+}
+
+.bloqueazul{
+	border: 1px solid #000000;
+	width: 700px;
+	height: 360px;
+	background-color:#6a85ab;
+	display: flex; /*necesario para que funcione el justify-content  y align-items*/
+	justify-content: space-around;
+	align-items: end;
+}
+
+.bloquecafe{
+	border: 1px solid #000000;
+	width: 200px;
+	height: 360px;
+	background-color:#ab976a;
+	display: flex; /*necesario para que funcione el justify-content  y align-items*/
+	flex-direction: column;
+	align-items: center;
+	}
+.B1,
+.B2,
+.B3{
+	border: 1px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color:#ede08a;
+}
+
+.B4,
+.B5,
+.B6{
+	border: 1px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color:#ede08a;
+}
+
+.bloquecrema{
+	border: 1px solid #000000;
+	width: 900px;
+	height: 100px;
+	background-color:#fff5b8;
+	display: flex;
+	justify-content: center;
+}
+
+.B7,
+.B8{
+	border: 1px solid #000000;
+	width: 100px;
+	height: 100px;
+	background-color:#ede08a;
+}
